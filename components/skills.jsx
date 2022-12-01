@@ -1,6 +1,6 @@
 import {AiFillHtml5} from 'react-icons/ai'
 import { DiCss3} from 'react-icons/di'
-import {SiJavascript, SiNextdotjs,SiTailwindcss} from 'react-icons/si'
+import {SiJavascript, SiNextdotjs,SiTailwindcss, } from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
 
 
@@ -8,26 +8,26 @@ import {FaReact} from 'react-icons/fa'
 const Skills = () => {
 
    return(
-      <div className='container'>
+      <div className='container m-auto mt-[23rem] '>
 
-         <h1 className='text-center items-center text-3xl bg-blue-500 text-white w-full p-5  font-medium shadow-xl h-[4rem]'>My Skills</h1>
+         <h1 className='bg-gray-900 m-auto text-center text-white text-4xl py-5 h-[7rem]'>My Skills</h1>
 
          {/* HTML */}
-         <div className='m-6 shadow-xl'>
+         <div className='m-10 shadow-2xl'>
 
-            <h3 className='text-gray-900 flex flex-row text-xl'>
+            <h3 className='text-gray-900 flex flex-row text-2xl font-light '>
 
-            <AiFillHtml5  className='react_icons' size={25}/>
+            <AiFillHtml5  className='react_icons' size={35}/>
 
                HTML
 
             </h3>
 
-            <div className="w-full h-5 bg-gray-900 ">
+            <div className="w-full h-10 bg-gray-900 ">
 
-               <div className="text-right pt-[-10px] px-2 pb-[5px] text-black w-[90%] h-5 bg-blue-500">
+               <div className="text-right pt-[-10px] px-2 pb-[2px] text-black w-[70%] h-10 bg-blue-500">
 
-                  <p className='text-[15px] pb-3'>90%</p>
+                  <p className='text-[20px] pt-1'>70%</p>
 
                </div>
 
@@ -38,20 +38,20 @@ const Skills = () => {
 
          {/* CSS */}
 
-         <div className='m-6 shadow-xl'>    
+         <div className='m-10 shadow-2xl'>    
 
-            <h3 className='text-gray-900 flex flex-row text-xl'>
+            <h3 className='text-gray-900 flex flex-row text-2xl font-light'>
 
-            <DiCss3 className='react_icons' size={25}/>
+            <DiCss3 className='react_icons' size={35}/>
                CSS
 
             </h3>
 
-            <div className="w-full h-5 bg-gray-900">
+            <div className="w-full h-10 bg-gray-900">
 
-               <div className="text-right pt-[-10px] px-2 pb-[5] text-black w-[90%] h-5 bg-red-500">
+               <div className="text-right pt-[-10px] px-2 pb-[2px] text-black w-[65%] h-10 bg-red-500">
                   
-                  <p className='text-[15px] pb-3 '>75%</p>
+                  <p className='text-[20px] pt-1'>65%</p>
 
                </div>
 
@@ -61,21 +61,21 @@ const Skills = () => {
 
          {/* JAVASCRIPT */}
 
-         <div className='m-6 shadow-xl'>   
+         <div className='m-10 shadow-2xl'>   
 
-            <h3 className='text-gray-900 flex flex-row text-xl'>
+            <h3 className='text-gray-900 flex flex-row text-2xl font-light'>
                
-            <SiJavascript className='react_icons' size={25}/>
+            <SiJavascript className='react_icons' size={35}/>
 
                JAVASCRIPT
                
             </h3>
 
-            <div className="w-full h-5 bg-gray-900">
+            <div className="w-full h-10 bg-gray-900">
 
-               <div className="text-right pt-[-10px] px-2 pb-[5px] text-black w-[59%] h-5 bg-purple-500">
+               <div className="text-right pt-[-10px] px-2 pb-[2px] text-black w-[55%] h-10 bg-purple-500">
 
-                  <p className='text-[15px] pb-3 '>59%</p>
+                  <p className='text-[20px] pt-1'>55%</p>
 
                </div>
 
@@ -85,21 +85,21 @@ const Skills = () => {
 
          {/* REACT.JS */}
 
-         <div className='m-6 shadow-xl'>   
+         <div className='m-10 shadow-2xl'>   
 
-            <h3 className='text-gray-900 flex flex-row text-xl'>
+            <h3 className='text-gray-900 flex flex-row text-2xl font-light'>
                
-            <FaReact className='react_icons' size={25}/>
+            <FaReact className='react_icons' size={35}/>
 
                REACT.JS
                
             </h3>
 
-            <div className="w-full h-5 bg-gray-900">
+            <div className="w-full h-10 bg-gray-900">
 
-               <div className="text-right pt-[-10px] px-2 pb-[5px] text-black w-[55%] h-5 bg-orange-500">
+               <div className="text-right pt-[-10px] px-2 pb-[2px] text-black w-[55%] h-10 bg-orange-500">
 
-                  <p className='text-[15px] pb-3 '>55%</p>
+                  <p className='text-[20px] pt-1'>55%</p>
 
                </div>
 
@@ -109,42 +109,42 @@ const Skills = () => {
 
          {/* Next.js */}
 
-         <div className='m-6 shadow-xl'>  
+         <div className='m-10 shadow-2xl'>  
 
-            <h3 className='text-gray-900 flex flex-row text-xl mt-[25px]'>
+            <h3 className='text-gray-900 flex flex-row text-2xl font-light'>
                
-            <SiNextdotjs className='react_icons' size={25}/>
+            <SiNextdotjs className='react_icons' size={35}/>
 
                NEXT.JS
                
             </h3>
 
-            <div className="w-full h-5 bg-gray-900">
+            <div className="w-full h-10 bg-gray-900">
 
-               <div className="text-right pt-[-10px] px-2 pb-[5px] text-black w-[65%] h-5 bg-green-500">
+               <div className="text-right pt-[-10px] px-2 pb-[2px] text-black w-[65%] h-10 bg-green-500">
 
-                  <p className='text-[15px] pb-3 '>65%</p>
+                  <p className='text-[20px] pt-1'>65%</p>
 
                </div>
             </div>
          </div>
 
          {/* Tailwind */}
-         <div className='m-6 shadow-xl '>      
+         <div className='m-10 shadow-2xl '>      
 
-            <h3 className='text-gray-900 flex flex-row text-xl'>
+            <h3 className='text-gray-900 flex flex-row text-2xl font-light'>
                
-            <SiTailwindcss className='react_icons' size={25}/>
+            <SiTailwindcss className='react_icons' size={35}/>
 
                TAILWIND
                
             </h3>
 
-            <div className="w-full h-5 bg-gray-900 ">
+            <div className="w-full h-10 bg-gray-900 ">
 
-               <div className="text-right  pt-[-10px] px-2 pb-[5px] text-black w-[50%] h-5 bg-yellow-400">
+               <div className="text-right  pt-[-10px] px-2 pb-[2px] text-black w-[40%] h-10 bg-yellow-400">
 
-                  <p className='text-[15px] pb-3 '>50%</p>
+                  <p className='text-[20px] pt-1'>40%</p>
 
                </div>
 

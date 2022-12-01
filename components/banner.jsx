@@ -1,11 +1,17 @@
 // Figure out styling
 const Banner = () => {
    return ( 
-      <div className="bg-blue-500 text-white h-[40vh] w-100 items-center m-auto flex flex-col justify-center">
+      <div id='home' className="text-center text-white p-[5rem] w-100 items-center m-auto flex flex-col justify-center bg-blue-500">
 
-         <div className="align-middle">
-            <h1 className="text-7xl text-left mb-4 font-400">Hello World!</h1>
-            <span className="text-2xl ">I am Kelsy-Anne Ohlsson</span>
+         <div className="align-middle text-center">
+            <h2 className="intro">
+               “First, solve the problem. Then, write the code.” - John Johnson
+            </h2>
+
+            <span className="intro2"> Hello World</span> 
+
+            <h1 className="text-5xl text-center m-5">My name is Kelsy-Anne Ohlsson</h1>
+
          </div>
       
       </div>

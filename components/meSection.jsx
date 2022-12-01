@@ -1,38 +1,55 @@
 import Skills from './skills'
 import Image from 'next/image'
-import { Margin } from '@mui/icons-material'
+import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
+import { SiIndeed } from 'react-icons/si'
 
 const Me = () => {
    return(
 
-      <div className='flex flex-col justify-center mb-[6rem]'>
+      <div className='flex flex-col justify-center'>
 
-         <div className='flex flex-col justify-center items-center'>
+         <div className='flex flex-col justify-center items-center h-[50vh]'>
 
             {/* Image */}
-         <div style={{ position: 'relative', width: '100%', height: '20vh' }}>
-               <Image
-               alt="Mountains"
-               src='/assets/me2.jfif'
-               fill
-               sizes="100vw"
-               style={{
-                  objectFit: 'none',
-                  marginTop:'2rem',
-               }}
-   
-         />
-      </div>
+            <Image
+               alt="My Image"
+               src='/assets/me.jpg'
+               className='myImg'
+               width='300'
+               height='300'
+             />
             
-
-            <span className='p-5 m-5  text-xl drop-shadow-md text-justify'>
+            <div className='p-5 text-xl drop-shadow-md text-center cursor-pointer'>
                {/* small intro */}
-               <ul className='mt-9'>
-                  <li className='list-disc'><h2>Software Development Student</h2></li>
-                  <li className='list-disc'><h2>Jr. Frontend Developer</h2></li>
-                  <li className='list-disc'><h2>Aspiring Female Developer</h2></li>
+               <ul>
+
+                  <li className=' hover:text-blue-500 hover:transition-500 file:text-600 text-xl m-5'>
+                     <h2>Jr. Frontend Developer</h2>
+                  <hr className='h-[2px] items-center  w-[12rem] rounded m-auto bg-blue-500'></hr>
+                  </li>
+
+                  <li className='hover:text-blue-500 hover:transition-500 text-600 text-xl m-5'>
+                     <h2>Software Development Student</h2>
+                     <hr className='h-[2px] items-center  w-[12rem] rounded m-auto bg-blue-500'></hr>
+                  </li>
+
+                  <li className='hover:text-blue-500 hover:transition-500 text-600 text-xl m-5'>
+                     <h2>Aspiring Female Developer</h2>
+                     <hr className='h-[2px] items-center  w-[12rem] rounded m-auto bg-blue-500'></hr>
+                     </li>
                </ul>
-            </span>
+            </div>
+
+            <p id='sm_desc' className='text-[25px] text-blue-500 text-center items-center m-1 font-500 p-5 leading-leading w-full'>
+               I am just an ambitious creative female trying to break into the Tech World
+            </p>
+
+            <div className='flex p-5 justify-evenly '>
+               <AiFillGithub className='m-5 cursor-pointer ' size={45} />
+               <AiFillLinkedin className='m-5 cursor-pointer' size={45} />
+               <AiFillFacebook className='m-5 cursor-pointer' size={45} />
+               <SiIndeed className='m-5 cursor-pointer' size={45}/>
+            </div>
 
          </div>
 
