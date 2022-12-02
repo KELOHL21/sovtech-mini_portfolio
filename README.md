@@ -29,7 +29,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-http://sovtech-mini-portfolio-kelohl21.vercel.app
-sovtech-mini-portfolio-iota.vercel.app
-sovtech-mini-portfolio-git-main-kelohl21.vercel.app
+- http://sovtech-mini-portfolio-kelohl21.vercel.app
+- http://sovtech-mini-portfolio-iota.vercel.app
+- http://sovtech-mini-portfolio-git-main-kelohl21.vercel.app
 
