@@ -12,7 +12,7 @@ const Me = () => {
 
             {/* Image */}
             <Image
-               alt="My Image"
+               alt="My_image"
                src='/assets/me.jpg'
                className='myImg'
                width='300'

@@ -13,7 +13,7 @@ const Navbar = () => {
 
     <div className='flex justify-between items-center h-15 mx-auto px-4 text-blue-500  m-5 sticky'>
       
-      <h1 id='nav_name'className='w-full text-5xl md:text-[2xl] font-bold text-blue-500 cursor-pointer md:hover:text-black md:duration-500 ml-[2rem]'>KELSY</h1>
+      <h1 id='nav_name'className='w-full text-4xl font-bold text-blue-500 cursor-pointer md:hover:text-black md:duration-500 ml-[2rem]'>KELSY</h1>
 
       <ul className='hidden text:sm md:flex md:w-full  md:justify-end xl:text-lg xl:px-4'>
 

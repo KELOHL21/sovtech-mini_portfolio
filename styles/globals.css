@@ -46,18 +46,16 @@ html{
 
 .intro{
   text-align: center;
-  width: 100%;
-  font-weight: 500;
-  font-size: 2.3rem;
-  text-shadow: 1px 1px 2px black;
-  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);   
+  color:rgb(0, 0, 0) ;
 }
 
 .intro2{
-  font-size: 2.8rem;
-  font-weight: 400;
+  font-size: 5rem;
+  font-weight: 500;
   text-shadow: 1px 1px 2px black;
-  margin-bottom: 12px;
 }
 
 
@@ -75,5 +73,11 @@ html{
   display: inline-block;
   align-items:center ;
   justify-content: center;
+}
+
+.myName{
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
 }
 

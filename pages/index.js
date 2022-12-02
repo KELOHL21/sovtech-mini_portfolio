@@ -4,7 +4,7 @@ import Navbar from '../components/navbar'
 import Banner from '../components/banner'
 import ABoutMe from '../components/aboutme'
 import SovtechSection from '../components/sovtechSection'
-import Me from '../components/meSection'
+import Me from '../components/mySection'
 
 export default function Home() {
   return (
